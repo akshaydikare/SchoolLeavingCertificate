@@ -1,0 +1,105 @@
+﻿@model IEnumerable<LeavingCertificate.Models.StudentLCData>
+@using LeavingCertificate.Models.Resources
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<div style="background-color:springgreen">
+<h2>@LeavingCertificate.Models.Resources.SchoolLc.ListofStudents</h2>
+<p>
+    @Html.ActionLink(LeavingCertificate.Models.Resources.SchoolLc.CreateNew, "Create")
+</p>
+@if (Model.Count() == 0)
+{
+    <h3>No records found</h3>
+}
+else
+{
+    <table class="table table-condensed table-hover">
+        <tr>
+            <th>
+
+                @Html.DisplayNameFor(model => model.AdmissionNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nationality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MotherTongue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Religion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Caste)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubCaste)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthPlace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DOBInDigits)
+            </th>
+
+
+
+            <th>@SchoolLc.Action</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdmissionNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nationality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotherTongue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Religion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Caste)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubCaste)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthPlace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DOBInDigits)
+            </td>
+
+            <td>
+                @Html.ActionLink(SchoolLc.Edit, "Edit", new { id = item.Id }) |
+                @Html.ActionLink(SchoolLc.Details, "Details", new { id = item.Id }) |
+                @Html.ActionLink(SchoolLc.Delete, "Delete", new { id = item.Id }) |
+                @Html.ActionLink(SchoolLc.PrintCertificate, "PrintCertificate", new { id = item.Id }, new { target = "_blank", @class = "glyphicon glyphicon-print" })
+                @Html.ActionLink("Print", "PrintById", new { id = item.Id }, new { target = "_blank" })
+            </td>
+        </tr>
+        }
+    </table>
+}
+</div>

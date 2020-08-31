@@ -1,0 +1,134 @@
+﻿@model LeavingCertificate.Models.StudentLCData
+@using LeavingCertificate.Models.Resources
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PrintById</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+    <style type="text/css">
+
+        td:nth-child(odd) {
+            font-size: medium;
+            font-weight: 500;
+            text-align: left;
+            vertical-align: middle;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+
+        td:nth-child(even) {
+            font-size: medium;
+            font-weight: 600;
+            vertical-align: middle;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+    </style>
+</head>
+<body>
+    @*<div class="pull-right">@Html.ActionLink("Print", "Print",new { id =Model.Id})</div>*@
+    <div class="div">
+
+        <h2 align="center">@SchoolLc.SchoolName</h2>
+        <h5>@SchoolLc.Address:</h5>
+
+        <hr />
+        <table class="table table-bordered table-striped">
+            <tr>
+                <td style="background-color:darkolivegreen;vertical-align:middle;color:white"><h4 align="Center"><i>@SchoolLc.LeavingCertificate</i></h4></td>
+            </tr>
+        </table>
+        <table class="table table-bordered  table-striped">
+            <tr>
+                <td>
+                    <table class="table table-bordered  table-striped">
+                        <tr>
+                            <td>@SchoolLc.FullName</td>
+                            <td colspan="5">@Model.FullName</td>
+                        </tr>
+                        <tr>
+                            <td> @SchoolLc.Nationality </td>
+                            <td> @Model.Nationality </td>
+                            <td> @SchoolLc.MotherTongue </td>
+                            <td> @Model.MotherTongue </td>
+
+                        </tr>
+
+                        <tr>
+                            <td> @SchoolLc.Religion </td>
+                            <td> @Model.Religion </td>
+                            <td> @SchoolLc.Caste </td>
+                            <td> @Model.Caste </td>
+
+                        </tr>
+                        <tr>
+                            <td> @SchoolLc.SubCaste </td>
+                            <td> @Model.SubCaste </td>
+                            <td> @SchoolLc.BirthPlace </td>
+                            <td> @Model.BirthPlace </td>
+
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.DOBInDigits</td>
+                            <td>@Model.DOBInDigits</td>
+                            <td>@SchoolLc.DOBInWords</td>
+                            <td>@Model.DOBInWords</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.PrevSchlName</td>
+                            <td colspan="3">@Model.PrevSchlName</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.AdmittedInClass</td>
+                            <td>@Model.AdmittedInClass</td>
+                            <td>@SchoolLc.AdmissionDate</td>
+                            <td>@Model.AdmissionDate</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.Progress</td>
+                            <td>@Model.Progress</td>
+                            <td>@SchoolLc.ConductBehaviour</td>
+                            <td>@Model.ConductBehaviour</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.DateOfSchlLeaving</td>
+                            <td>@Model.DateOfSchlLeaving</td>
+                            <td> @SchoolLc.ClassFromLeft</td>
+                            <td>@Model.ClassFromLeft</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.ReasonForLeaving</td>
+                            <td colspan="3">@Model.ReasonForLeaving</td>
+                        </tr>
+                        <tr>
+                            <td>@SchoolLc.Remark</td>
+                            <td colspan="3"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <b>@SchoolLc.Date :</b>____________________ <b>@SchoolLc.Month :____________________</b> <b>@SchoolLc.Year :</b>____________________
+
+        <table width="100%" style="margin-top:100px;">
+            <tr>
+                <td style="text-align:center;vertical-align:middle">@SchoolLc.ClassTeacher</td>
+                <td style="text-align:center;vertical-align:middle;font-weight:normal;">@SchoolLc.ClerkSign</td>
+                <td style="text-align:center;vertical-align:middle">@SchoolLc.PrincipalSignStamp</td>
+            </tr>
+        </table>
+        @*<p>
+                @Html.ActionLink("Back to List", "Index")
+            </p>*@
+    </div>
+</body>
+</html>
