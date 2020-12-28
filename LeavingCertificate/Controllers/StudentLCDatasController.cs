@@ -120,15 +120,15 @@ namespace LeavingCertificate.Controllers
         }
 
 
-        public ActionResult Change(string langabb)
+        public ActionResult Change(string lang)
         {
-            if (langabb != null)
+            if (lang != null)
             {
-                Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(langabb);
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo(langabb);
+                Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(lang);
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
             }
             HttpCookie cookie = new HttpCookie("Language");
-            cookie.Value = langabb;
+            cookie.Value = lang;
             Response.Cookies.Add(cookie);
             return RedirectToAction("Index");
         }
