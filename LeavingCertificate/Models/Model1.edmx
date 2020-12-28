@@ -11,26 +11,26 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="AdmissionNo" Type="int" />
-          <Property Name="FullName" Type="varchar" MaxLength="100" Nullable="false" />
-          <Property Name="Nationality" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="MotherTongue" Type="varchar" MaxLength="50" />
-          <Property Name="Religion" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Caste" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="SubCaste" Type="varchar" MaxLength="50" />
-          <Property Name="BirthPlace" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="DOBInDigits" Type="date" />
+          <Property Name="FullName" Type="varchar" MaxLength="150" />
+          <Property Name="Nationality" Type="varchar" MaxLength="20" />
+          <Property Name="MotherTongue" Type="varchar" MaxLength="20" />
+          <Property Name="Religion" Type="varchar" MaxLength="20" />
+          <Property Name="Caste" Type="varchar" MaxLength="20" />
+          <Property Name="SubCaste" Type="varchar" MaxLength="20" />
+          <Property Name="BirthPlace" Type="varchar" MaxLength="50" />
+          <Property Name="DOBInDigits" Type="datetime" />
           <Property Name="DOBInWords" Type="varchar" MaxLength="150" />
           <Property Name="PrevSchlName" Type="varchar" MaxLength="150" />
-          <Property Name="AdmittedInClass" Type="nvarchar" MaxLength="50" />
+          <Property Name="AdmittedInClass" Type="varchar" MaxLength="20" />
           <Property Name="AdmissionDate" Type="varchar" MaxLength="50" />
-          <Property Name="Progress" Type="varchar" MaxLength="150" />
-          <Property Name="ConductBehaviour" Type="varchar" MaxLength="150" />
-          <Property Name="DateOfSchlLeaving" Type="date" />
-          <Property Name="ClassFromLeft" Type="nvarchar" MaxLength="50" />
-          <Property Name="ReasonForLeaving" Type="varchar" MaxLength="150" />
-          <Property Name="CertificateRcvdDate" Type="date" />
+          <Property Name="Progress" Type="varchar" MaxLength="15" />
+          <Property Name="ConductBehaviour" Type="varchar" MaxLength="20" />
+          <Property Name="DateOfSchlLeaving" Type="datetime" />
+          <Property Name="ClassFromLeft" Type="varchar" MaxLength="20" />
+          <Property Name="ReasonForLeaving" Type="varchar" MaxLength="100" />
+          <Property Name="CertificateRcvdDate" Type="datetime" />
           <Property Name="ReceivedByName" Type="varchar" MaxLength="50" />
-          <Property Name="Gender" Type="varchar" MaxLength="10" />
+          <Property Name="Gender" Type="varchar" MaxLength="20" />
         </EntityType>
         <EntityContainer Name="LcDataModelStoreContainer">
           <EntitySet Name="StudentLCData" EntityType="Self.StudentLCData" Schema="dbo" store:Type="Tables" />
@@ -45,26 +45,26 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="AdmissionNo" Type="Int32" />
-          <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Nationality" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="MotherTongue" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Religion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Caste" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="SubCaste" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="BirthPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="DOBInDigits" Type="DateTime" Precision="0" />
+          <Property Name="FullName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Nationality" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MotherTongue" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Religion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Caste" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SubCaste" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BirthPlace" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DOBInDigits" Type="DateTime" Precision="3" />
           <Property Name="DOBInWords" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="PrevSchlName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="AdmittedInClass" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="AdmissionDate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Progress" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="ConductBehaviour" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="DateOfSchlLeaving" Type="DateTime" Precision="0" />
-          <Property Name="ClassFromLeft" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ReasonForLeaving" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="CertificateRcvdDate" Type="DateTime" Precision="0" />
+          <Property Name="AdmittedInClass" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="AdmissionDate" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Progress" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="ConductBehaviour" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DateOfSchlLeaving" Type="DateTime" Precision="3" />
+          <Property Name="ClassFromLeft" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ReasonForLeaving" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CertificateRcvdDate" Type="DateTime" Precision="3" />
           <Property Name="ReceivedByName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="LcDataEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="StudentLCData" EntityType="Self.StudentLCData" />
