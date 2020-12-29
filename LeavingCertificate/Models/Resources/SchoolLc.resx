@@ -264,4 +264,13 @@
   <data name="Hindi" xml:space="preserve">
     <value>Hindi</value>
   </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="field is required" xml:space="preserve">
+    <value>field is required</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
 </root>

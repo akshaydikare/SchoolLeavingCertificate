@@ -124,6 +124,15 @@ namespace LeavingCertificate.Models.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Arabic.
+        /// </summary>
+        public static string Arabic {
+            get {
+                return ResourceManager.GetString("Arabic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back to List.
         /// </summary>
         public static string BackToList {
@@ -295,6 +304,15 @@ namespace LeavingCertificate.Models.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to field is required.
+        /// </summary>
+        public static string field_is_required {
+            get {
+                return ResourceManager.GetString("field is required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Full Name.
         /// </summary>
         public static string FullName {
@@ -327,6 +345,15 @@ namespace LeavingCertificate.Models.Resources {
         public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        public static string Language {
+            get {
+                return ResourceManager.GetString("Language", resourceCulture);
             }
         }
         

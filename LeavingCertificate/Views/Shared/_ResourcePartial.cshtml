@@ -4,13 +4,14 @@
 <ul class="nav navbar-nav navbar-right">
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle btn btn-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Language
+            @SchoolLc.Language
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <ul>
                 <li>@Html.ActionLink(SchoolLc.English, "Change", "StudentLCDatas", new { lang = "en" }, null)</li>
                 <li>@Html.ActionLink(SchoolLc.Marathi, "Change", "StudentLCDatas", new { lang = "mr" }, null)</li>
                 <li>@Html.ActionLink(SchoolLc.Hindi, "Change", "StudentLCDatas", new { lang = "hi-IN" }, null)</li>
+                <li>@Html.ActionLink(SchoolLc.Arabic, "Change", "StudentLCDatas", new { lang = "ar-AE" }, null)</li>
             </ul>         
         </div>
     </li>
