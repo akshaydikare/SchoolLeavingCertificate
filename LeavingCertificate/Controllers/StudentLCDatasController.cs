@@ -20,7 +20,8 @@ namespace LeavingCertificate.Controllers
         // GET: StudentLCDatas
         public ActionResult Index()
         {
-            return View(db.StudentLCData.ToList());
+           var students = db.StudentLCData.ToList();
+            return View(students);
         }
 
         // GET: StudentLCDatas/Details/5

@@ -273,10 +273,13 @@
   <data name="Arabic" xml:space="preserve">
     <value>अरबी</value>
   </data>
-  <data name="field is required" xml:space="preserve">
-    <value>फ़ील्ड आवश्यक है</value>
-  </data>
   <data name="Language" xml:space="preserve">
     <value>भाषा</value>
+  </data>
+  <data name="AllRecords" xml:space="preserve">
+    <value>सभी रिकॉर्ड्स</value>
+  </data>
+  <data name="Confirmdelete" xml:space="preserve">
+    <value>क्या आप इसे हटाना चाहते हैं?</value>
   </data>
 </root>

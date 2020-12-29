@@ -2,16 +2,12 @@
 @using LeavingCertificate.Models.Resources
 @{
     /**/
-    ViewBag.Title = "Create";
-    Layout = null;
+    ViewBag.Title = @SchoolLc.Create;
+
 }
 
-<script src="~/Scripts/bootstrap.min.js"></script>
-<script src="~/Scripts/jquery-3.3.1.min.js"></script>
-<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
-
-<div style="padding:50px;">
+<div style="padding-top:75px;"class="container">
     <h3>@SchoolLc.AddNewRecordHere</h3>
 
     @using (Html.BeginForm())
@@ -192,6 +188,6 @@
 </div>
 
 
-@section Scripts {
+@*@section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
-}
+}*@

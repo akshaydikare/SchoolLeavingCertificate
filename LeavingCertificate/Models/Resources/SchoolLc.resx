@@ -267,10 +267,13 @@
   <data name="Arabic" xml:space="preserve">
     <value>Arabic</value>
   </data>
-  <data name="field is required" xml:space="preserve">
-    <value>field is required</value>
-  </data>
   <data name="Language" xml:space="preserve">
     <value>Language</value>
+  </data>
+  <data name="AllRecords" xml:space="preserve">
+    <value>All Records</value>
+  </data>
+  <data name="Confirmdelete" xml:space="preserve">
+    <value>Are you sure you want to delete this?</value>
   </data>
 </root>
