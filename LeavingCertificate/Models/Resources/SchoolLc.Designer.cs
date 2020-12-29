@@ -313,6 +313,15 @@ namespace LeavingCertificate.Models.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hindi.
+        /// </summary>
+        public static string Hindi {
+            get {
+                return ResourceManager.GetString("Hindi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Home {

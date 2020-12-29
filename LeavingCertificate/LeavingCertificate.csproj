@@ -179,13 +179,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\StudentLc.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Resources\SchoolLc.mr-IN.Designer.cs">
-      <DependentUpon>SchoolLc.mr-IN.resx</DependentUpon>
+    <Compile Include="Models\Resources\SchoolLc.hi-IN.Designer.cs">
+      <DependentUpon>SchoolLc.hi-IN.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Models\StudentLc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Resources\SchoolLc.mr.Designer.cs">
       <DependentUpon>SchoolLc.mr.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -320,9 +320,9 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Models\Resources\SchoolLc.mr-IN.resx">
+    <EmbeddedResource Include="Models\Resources\SchoolLc.hi-IN.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>SchoolLc.mr-IN.Designer.cs</LastGenOutput>
+      <LastGenOutput>SchoolLc.hi-IN.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Models\Resources\SchoolLc.mr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
