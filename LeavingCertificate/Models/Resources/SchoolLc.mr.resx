@@ -267,4 +267,7 @@
   <data name="Male" xml:space="preserve">
     <value>पुरुष</value>
   </data>
+  <data name="Hindi" xml:space="preserve">
+    <value>हिंदी</value>
+  </data>
 </root>

@@ -117,96 +117,157 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="String" xml:space="preserve">
-    <value>AdmissionDate</value>
-    <comment>प्रवेश तारीख</comment>
+  <data name="About" xml:space="preserve">
+    <value>के बारे में</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value>AdmissionNumber</value>
-    <comment>प्रवेश क्रमांक</comment>
+  <data name="Action" xml:space="preserve">
+    <value>कार्य</value>
   </data>
-  <data name="String10" xml:space="preserve">
-    <value>DOBInWords</value>
-    <comment>जन्म तारीख शब्दात</comment>
+  <data name="AddNewRecordHere" xml:space="preserve">
+    <value>नया रिकॉर्ड जोड़ें</value>
   </data>
-  <data name="String11" xml:space="preserve">
-    <value>FullName</value>
-    <comment>पूर्ण नाव</comment>
+  <data name="Address" xml:space="preserve">
+    <value>पता</value>
   </data>
-  <data name="String12" xml:space="preserve">
-    <value>MotherTongue</value>
-    <comment>मातृभाषा</comment>
+  <data name="AdmissionDate" xml:space="preserve">
+    <value>प्रवेश तिथि</value>
   </data>
-  <data name="String13" xml:space="preserve">
-    <value>Nationality</value>
-    <comment>राष्ट्रीयत्व</comment>
+  <data name="AdmissionNumber" xml:space="preserve">
+    <value>प्रवेश संख्या</value>
   </data>
-  <data name="String14" xml:space="preserve">
-    <value>PrevSchlName</value>
-    <comment>मागील शाळेचे नाव</comment>
+  <data name="AdmittedInClass" xml:space="preserve">
+    <value>कक्षा में प्रवेश लिया</value>
   </data>
-  <data name="String15" xml:space="preserve">
-    <value>Progress</value>
-    <comment>प्रगती</comment>
+  <data name="BackToList" xml:space="preserve">
+    <value>दोबारा सूची को जाएं</value>
   </data>
-  <data name="String16" xml:space="preserve">
-    <value>ReasonForLeaving</value>
-    <comment>सोडण्याचं कारण</comment>
+  <data name="BirthPlace" xml:space="preserve">
+    <value>जन्मस्थल</value>
   </data>
-  <data name="String17" xml:space="preserve">
-    <value>ReceivedByName</value>
-    <comment>कोणास मिळाला</comment>
+  <data name="Caste" xml:space="preserve">
+    <value>जाति</value>
   </data>
-  <data name="String18" xml:space="preserve">
-    <value>Religion</value>
-    <comment>धर्म</comment>
+  <data name="CertificateRcvdDate" xml:space="preserve">
+    <value>प्रमाणपत्र प्राप्त तिथि</value>
   </data>
-  <data name="String19" xml:space="preserve">
-    <value>SubCaste</value>
-    <comment>पोटजाती</comment>
+  <data name="ClassFromLeft" xml:space="preserve">
+    <value>किस क्लास से छोड़ा</value>
   </data>
-  <data name="String2" xml:space="preserve">
-    <value>AdmittedInClass</value>
-    <comment>कोणत्या वर्गात प्रवेश घेतला</comment>
+  <data name="ClassTeacher" xml:space="preserve">
+    <value>कक्षा अध्यापक</value>
   </data>
-  <data name="String20" xml:space="preserve">
-    <value>Gender</value>
-    <comment>लिंग</comment>
+  <data name="ClerkSign" xml:space="preserve">
+    <value>क्लर्क साइन</value>
   </data>
-  <data name="String21" xml:space="preserve">
-    <value>Male</value>
-    <comment>पुरुष</comment>
+  <data name="ConductBehaviour" xml:space="preserve">
+    <value>आचरण</value>
   </data>
-  <data name="String22" xml:space="preserve">
-    <value>Female</value>
-    <comment>महिला</comment>
+  <data name="Contact" xml:space="preserve">
+    <value>संपर्क करें</value>
   </data>
-  <data name="String3" xml:space="preserve">
-    <value>BirthPlace</value>
-    <comment>जन्म स्थान</comment>
+  <data name="Create" xml:space="preserve">
+    <value>निर्माण करना</value>
   </data>
-  <data name="String4" xml:space="preserve">
-    <value>Caste</value>
-    <comment>जाती</comment>
+  <data name="CreateNew" xml:space="preserve">
+    <value>नया बनाओ</value>
   </data>
-  <data name="String5" xml:space="preserve">
-    <value>CertificateRcvdDate</value>
-    <comment>प्रमाणपत्र प्राप्त तारीख</comment>
+  <data name="Date" xml:space="preserve">
+    <value>तिथि</value>
   </data>
-  <data name="String6" xml:space="preserve">
-    <value>ClassFromLeft</value>
-    <comment>ज्या वर्गातून सोडले</comment>
+  <data name="DateOfSchlLeaving" xml:space="preserve">
+    <value>स्कूल छोड़ने की तारीख</value>
   </data>
-  <data name="String7" xml:space="preserve">
-    <value>ConductBehaviour</value>
-    <comment>वर्तणूक / वर्तन</comment>
+  <data name="Delete" xml:space="preserve">
+    <value>हटाएं</value>
   </data>
-  <data name="String8" xml:space="preserve">
-    <value>DateOfSchlLeaving</value>
-    <comment>शाळा सुटण्याची तारीख</comment>
+  <data name="Details" xml:space="preserve">
+    <value>विस्तार</value>
   </data>
-  <data name="String9" xml:space="preserve">
-    <value>DOBInDigits</value>
-    <comment>जन्म तारीख अंकांमध्ये</comment>
+  <data name="DOBInDigits" xml:space="preserve">
+    <value>अंकों में जन्म की तारीख</value>
+  </data>
+  <data name="DOBInWords" xml:space="preserve">
+    <value>जन्म तिथि शब्दों में</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>सुधार करें</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>अंग्रेज़ी</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>पूरा नाम</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>मुख्यपृष्ठ</value>
+  </data>
+  <data name="LeavingCertificate" xml:space="preserve">
+    <value>विद्यालय छोड़ने का प्रमाणपत्र</value>
+  </data>
+  <data name="ListofStudents" xml:space="preserve">
+    <value>छात्रों की सूची</value>
+  </data>
+  <data name="Marathi" xml:space="preserve">
+    <value>मराठी</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>महिना</value>
+  </data>
+  <data name="MotherTongue" xml:space="preserve">
+    <value>मातृभाषा</value>
+  </data>
+  <data name="NameofStudent" xml:space="preserve">
+    <value>छात्र का नाम</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>राष्ट्रीयता</value>
+  </data>
+  <data name="PrevSchlName" xml:space="preserve">
+    <value>पिछले स्कूल का नाम</value>
+  </data>
+  <data name="PrincipalSignStamp" xml:space="preserve">
+    <value>प्राचार्य हस्ताक्षर और मुहर</value>
+  </data>
+  <data name="PrintCertificate" xml:space="preserve">
+    <value>प्रिंट</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>प्रगति</value>
+  </data>
+  <data name="ReasonForLeaving" xml:space="preserve">
+    <value>स्कूल छोड़ने का कारण</value>
+  </data>
+  <data name="ReceivedByName" xml:space="preserve">
+    <value>नाम से प्राप्त</value>
+  </data>
+  <data name="Religion" xml:space="preserve">
+    <value>धर्म</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>टिप्पणियों</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>विद्यालय का नाम</value>
+  </data>
+  <data name="SubCaste" xml:space="preserve">
+    <value>उप जाति</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>साल</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>महिला</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>लिंग</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>पुरुष</value>
+  </data>
+  <data name="Hindi" xml:space="preserve">
+    <value>हिंदी</value>
   </data>
 </root>
