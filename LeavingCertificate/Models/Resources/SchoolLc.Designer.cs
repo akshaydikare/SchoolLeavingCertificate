@@ -124,6 +124,15 @@ namespace LeavingCertificate.Models.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All Records.
+        /// </summary>
+        public static string AllRecords {
+            get {
+                return ResourceManager.GetString("AllRecords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Arabic.
         /// </summary>
         public static string Arabic {
@@ -201,6 +210,15 @@ namespace LeavingCertificate.Models.Resources {
         public static string ConductBehaviour {
             get {
                 return ResourceManager.GetString("ConductBehaviour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to delete this?.
+        /// </summary>
+        public static string Confirmdelete {
+            get {
+                return ResourceManager.GetString("Confirmdelete", resourceCulture);
             }
         }
         
@@ -300,15 +318,6 @@ namespace LeavingCertificate.Models.Resources {
         public static string English {
             get {
                 return ResourceManager.GetString("English", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to field is required.
-        /// </summary>
-        public static string field_is_required {
-            get {
-                return ResourceManager.GetString("field is required", resourceCulture);
             }
         }
         

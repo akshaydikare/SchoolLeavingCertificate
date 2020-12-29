@@ -311,7 +311,6 @@
     <Folder Include="bin\bin\mr-IN\" />
     <Folder Include="Content\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Views\StudentLCData\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

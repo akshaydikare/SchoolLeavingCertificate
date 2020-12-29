@@ -1,13 +1,14 @@
 ﻿@model LeavingCertificate.Models.StudentLCData
-
+@using LeavingCertificate.Models.Resources
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = @SchoolLc.Details;
+   
 }
 
-<h2>Details</h2>
 
-<div>
-    <h4>StudentLCData</h4>
+
+<div style="padding:75px;"class="container">
+    <h2>@SchoolLc.Details</h2>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -178,8 +179,10 @@
         </dd>
 
     </dl>
+    <hr />
+    <p>
+        @Html.ActionLink(SchoolLc.Edit, "Edit", new { id = Model.Id }) |
+        @Html.ActionLink(SchoolLc.BackToList, "Index")
+    </p>
+
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
