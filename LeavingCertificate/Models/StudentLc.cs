@@ -22,34 +22,34 @@ namespace LeavingCertificate.Models
         [Display(Name = "AdmissionNumber", ResourceType = typeof(SchoolLc))]
         public int AdmissionNo { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "NameRequired", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "FullName", ResourceType = typeof(SchoolLc))]
         public string FullName { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "NationalityRequired", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "Nationality", ResourceType = typeof(SchoolLc))]
         public string Nationality { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "MotherTongueRequired", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "MotherTongue", ResourceType = typeof(SchoolLc))]
         public string MotherTongue { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "ReligionRequired", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "Religion", ResourceType = typeof(SchoolLc))]
         public string Religion { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "CasteRequired", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "Caste", ResourceType = typeof(SchoolLc))]
         public string Caste { get; set; }
 
         [Display(Name = "SubCaste", ResourceType = typeof(SchoolLc))]
         public string SubCaste { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "BirthPlaceReq", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "BirthPlace", ResourceType = typeof(SchoolLc))]
         public string BirthPlace { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "DOBInDigitsReq", ErrorMessageResourceType = typeof(Error))]
         [DataType(DataType.Date)]
         [Display(Name = "DOBInDigits", ResourceType = typeof(SchoolLc))]
         public DateTime? DOBInDigits { get; set; }
@@ -67,23 +67,23 @@ namespace LeavingCertificate.Models
         [Display(Name = "AdmissionDate", ResourceType = typeof(SchoolLc))]
         public string AdmissionDate { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "ProgressReq", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "Progress", ResourceType = typeof(SchoolLc))]
         public string Progress { get; set; }
 
         [Display(Name = "ConductBehaviour", ResourceType = typeof(SchoolLc))]
         public string ConductBehaviour { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "DateOfSchlLeavingReq", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "DateOfSchlLeaving", ResourceType = typeof(SchoolLc))]
         [DataType(DataType.Date)]
         public DateTime? DateOfSchlLeaving { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "ClassFromLeftReq", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "ClassFromLeft", ResourceType = typeof(SchoolLc))]
         public string ClassFromLeft { get; set; }
 
-        [Required]
+        [Required(ErrorMessageResourceName = "ReasonForLeaving", ErrorMessageResourceType = typeof(Error))]
         [Display(Name = "ReasonForLeaving", ResourceType = typeof(SchoolLc))]
         public string ReasonForLeaving { get; set; }
 
