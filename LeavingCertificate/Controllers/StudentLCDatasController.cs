@@ -41,8 +41,7 @@ namespace LeavingCertificate.Controllers
 
         // GET: StudentLCDatas/Create
         public ActionResult Create()
-        {
-            
+        {            
             return View();
         }
 
@@ -109,7 +108,7 @@ namespace LeavingCertificate.Controllers
             return View(studentLCData);
         }
 
-        // POST: StudentLCDatas/Delete/5
+        //POST:StudentLCDatas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
@@ -119,8 +118,6 @@ namespace LeavingCertificate.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-
-
         public ActionResult Change(string lang)
         {
             if (lang != null)
