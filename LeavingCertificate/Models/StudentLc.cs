@@ -13,8 +13,6 @@ namespace LeavingCertificate.Models
     public partial class StudentLCData
     {
     }
-
-
     public class StudentLCMetaData
     {
         public int Id { get; set; }
@@ -93,7 +91,6 @@ namespace LeavingCertificate.Models
 
         [Display(Name = "ReceivedByName", ResourceType = typeof(SchoolLc))]
         public string ReceivedByName { get; set; }
-
 
         [Display(Name = "Gender", ResourceType = typeof(SchoolLc))]
         public string Gender { get; set; }
