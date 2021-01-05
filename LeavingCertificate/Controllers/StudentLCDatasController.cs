@@ -60,6 +60,7 @@ namespace LeavingCertificate.Controllers
             }
 
             return View(studentLCData);
+
         }
 
         // GET: StudentLCDatas/Edit/5
